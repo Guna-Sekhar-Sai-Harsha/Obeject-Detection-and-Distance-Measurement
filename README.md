@@ -22,13 +22,6 @@ For object detection YOLO-V3 has been used which is able to detect 80 different 
 
 ### User Instruction
 
-## Update
-
-**There is a new update with [yolov4 new release](https://github.com/Tianxiaomo/pytorch-YOLOv4). All you have to do a simple step which is after downloading the project run the following command and follow the rest of the process as it is.**
-
-  ```
-    cd YOLOv4
-  ```
 
 You can also use Yolact++ as a object detector using [this](https://github.com/paul-pias/Social-Distance-Monitoring) repo.
 
@@ -148,7 +141,7 @@ However, when you are working with a embedded device to make a compact design wh
 you don't always want to make your device heavier by adding unnnecessary hardware modules. To avoid such cases you can follow a more convinent and feasible apporoach. As you have already integrated a camera for object detection, you can use the depth information that camera uses to draw the bounding boxes for localizing objects to calculate the distance of that object from the camera.
 
 ### How the object detection works?
-From the initial part we understood that, to measure distance from an image we to localize it first to get the depth information.
+From the initial part I understood that, to measure distance from an image we need to localize it first to get the depth information.
 <b> Now, how actually localization works?</b>
 
 #### Localize objects with regression
@@ -223,16 +216,9 @@ we will get our final result in "inchs" from this formula of distance.
 
 * Notes - As mentioned earlier YOLO prefers performance over accuracy that's why the model predicts wrong objects frquently.
 
-## If anyone using this code for any kind of publications, kindly cite this work.
-
-M. A. Khan, P. Paul, M. Rashid, M. Hossain and M. A. R. Ahad, "An AI-Based Visual Aid With Integrated Reading Assistant for the Completely Blind," in IEEE Transactions on Human-Machine Systems.
-doi: 10.1109/THMS.2020.3027534
-
-
-
-
 ### Reference
 
+-M. A. Khan, P. Paul, M. Rashid, M. Hossain and M. A. R. Ahad, "An AI-Based Visual Aid With Integrated Reading Assistant for the Completely Blind," in IEEE Transactions on Human-Machine Systems. doi: 10.1109/THMS.2020.3027534
 - [Real-Time Distance Measurement Using a Modified
 Camera ](https://sci-hub.tw/10.1109/SAS.2010.5439423)
 - [Real-time Distance Measurement Using Single Image](http://emaraic.com/blog/distance-measurement)
