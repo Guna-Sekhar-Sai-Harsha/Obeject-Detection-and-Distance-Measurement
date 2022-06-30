@@ -58,7 +58,7 @@ First open the cmd as an administrator, then run
 
 You need to clone the repository using gitbash (if gitbash is already installed) or you can download the zip file.
 ``` python
-    $ git clone https://github.com/paul-pias/Object-Detection-and-Distance-Measurement.git
+    $ git clone https://github.com/Guna-Sekhar-Sai-Harsha/Obeject-Detection-and-Distance-Measurement.git
 ```
 
 After unzipping the project, there are two ways to run this. If want to see your output in your browser execute the "app.py" script or else run "object_detection.py" to execute it locally.
